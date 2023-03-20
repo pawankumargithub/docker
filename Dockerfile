@@ -1,4 +1,4 @@
 FROM openjdk:8-jdk-alpine
-COPY target/docker-demo.jar docker-demo.jar
+COPY target/docker-demo1.jar docker-demo1.jar
 EXPOSE 8888
-ENTRYPOINT ["java","-jar","/docker-demo.jar"]
+ENTRYPOINT ["java","-jar","/docker-demo1.jar"]
