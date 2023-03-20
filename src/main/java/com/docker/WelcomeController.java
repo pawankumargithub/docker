@@ -11,4 +11,9 @@ public class WelcomeController {
 		return "welcome to docker...";
 	}
 	
+	@GetMapping("/welcome/docker")
+	public String welcomeToDocker() {
+		return "welcome to docker";
+	}
+	
 }
